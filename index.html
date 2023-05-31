@@ -4,53 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onesmus Makori - Portfolio</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="about">
-            <h1>About</h1>
-            <img src="Poster.jpg" style="width: 100px; height: 50px;" alt="">
-            <p>
-                Insert a brief introduction about yourself and your skills here.
-            </p>
+            <div class="container">
+                <h1>About</h1>
+                <img src="Poster.jpg" style="width: 100px; height: 50px;" alt="">
+                <p>"I am Onesmus Makori, a highly skilled software developer specializing in Python, Node.js, MongoDB, MySQL, and Flask.</p>
+                <p>With a master's degree in computer science, I have built a strong foundation in software engineering principles and possess a deep understanding of various technologies.</p>
+                <p>In Python, I excel at leveraging the language's versatility and extensive libraries to develop efficient and elegant solutions. I have honed my skills in building fast and scalable server-side applications using Node.js, utilizing its event-driven, non-blocking I/O model. Additionally, I have gained expertise in database technologies, particularly MongoDB and MySQL, and I am adept at designing efficient data models and implementing secure and performant database operations.</p>
+                <p>One of my key areas of specialization lies in the Flask framework—a micro web framework for Python.</p>
+                <p>I have successfully developed numerous web applications, RESTful APIs, and backend systems using Flask.</p>  
+                <p>Its simplicity and flexibility allow me to deliver tailored solutions to clients.</p>
+                <p>I bring a strong problem-solving ability, a keen eye for detail, and a collaborative mindset to every project.</p>
+                <p>I am constantly exploring new technologies and staying up-to-date with industry trends. Passionate about creating efficient and user-friendly applications, I am dedicated to delivering exceptional results and contributing to the success of every project.</p>
+                <p>With a proven track record of delivering high-quality software solutions, I am confident in my abilities to tackle complex challenges and contribute to the growth and innovation of any team or organization.</p>
+            </div>
         </section>
 
         <section id="experience">
-            <h1>Experience</h1>
-            <p>
-                Write about your professional experience and highlight your accomplishments.
-            </p>`
+            <div class="container">
+                <h1>Experience</h1>
+                <ul>
+                    <li>Front End Developer Upwork</li>
+                    <li>Black Coffee Network Web Application</li>
+                    <li>Udemy backend developer</li>
+                </ul>
+            </div>
         </section>
 
         <section id="projects">
-            <h1>Projects</h1>
-            <p>
-                Showcase some of your notable projects with descriptions and links.
-            </p>
+            <div class="container">
+                <h1>Projects</h1>
+                <div class="row justify-content-between flex-wrap">
+                    <div class="col-md-4">
+                        <div class="card d-flex">
+                            <img class="card-img-top" src="Poster.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Designed a flask application for handling user data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card d-flex">
+                            <img class="card-img-top" src="Poster.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Designed a flask application for handling user data</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         </section>
 
         <section id="blog">
-            <h1>Blog</h1>
-            <p>
-                Share your thoughts and insights through blog posts.
-            </p>
+            <div class="container">
+                <h1>Blog</h1>
+                <p>Check out my blog - <a href="#" class="xyz">thesismasters</a></p>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Onesmus Makori. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2023 Onesmus Makori. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Add Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
